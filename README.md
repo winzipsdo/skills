@@ -31,11 +31,3 @@ Controls: type to fuzzy-filter (queries are space-free), `↑/↓` move, `space`
   ```sh
   npx skills@latest add https://github.com/winzipsdo/skills.git --skill burn-them-all -g
   ```
-
-## Editor setup
-
-- **fast-vscode** `Slash Only` — Trim VSCode for fast cold start and quiet usage by patching `settings.json`: disable built-in AI (chat, inline suggest, NL search), telemetry/experiments, and state-restore (hot exit, window restore, view state).
-
-  ```sh
-  npx skills@latest add https://github.com/winzipsdo/skills.git --skill fast-vscode -g
-  ```
